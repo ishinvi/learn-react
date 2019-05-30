@@ -14,7 +14,7 @@ class App extends Component {
   }
   render() {
     const todos = this.getVisibleTodos();
-    const { filter } = this.props;
+    const filter = this.state.filter;
     return (
       <div>
         <AddTodo addTodo={this.addTodo} />
