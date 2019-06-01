@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TodoList from './TodoList';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//<App /> jsx 必须引入React
+ReactDOM.render(<TodoList />, document.getElementById('root'));
 
